@@ -76,7 +76,7 @@ start_time,length,rename_to
 * -m or --manifest      manifest file to control the splitting of videos.
 * -f or --file          video file to split.
 * -s or --split-size    seconds to evenly split the videos
-* -e or --extra         extra optional options for ffmpeg, e.g. '-e -threads 8' to use 8 threads to speed up.
+* -e or --extra         extra optional options for ffmpeg, e.g. `-e '-threads 8'` to use 8 threads to speed up.
 * -S or --split-filesize    Split or chunk size in bytes (approximate). e.g -S 1048576 will split into files under 1 Megabyte
 * -o or --output_dir     set a output folder for split
 
